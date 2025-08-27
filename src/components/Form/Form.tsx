@@ -23,7 +23,7 @@ export default function Form({ onSubmit }: FormProps) {
     <form className={style.form} action={handleSubmit}>
       <input
         className={style.input}
-        placeholder="What do you want to write?"
+        placeholder="Which image would you like to see? Let me know here."
         name="search"
         autoFocus
       />

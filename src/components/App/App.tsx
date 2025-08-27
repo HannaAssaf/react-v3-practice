@@ -27,9 +27,6 @@ export default function App() {
       setPhotos([]);
 
       const fetchedPhotos = await getPhotos(query);
-      // const response = await import("../../services/photos");
-      // const fetchedPhotos = await response.getPhotos(query);
-
       if (fetchedPhotos.length === 0) {
         toast.error("No photos found for this query");
       }
@@ -37,7 +34,6 @@ export default function App() {
       setPhotos(fetchedPhotos);
     } catch (error) {
       setError(true);
-      // console.error("Error fetching photos:", error);
     } finally {
       setIsLoading(false);
     }
