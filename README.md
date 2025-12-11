@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⚛️ React Practice — Product List & Filters
 
-Currently, two official plugins are available:
+### _Small React practice project focusing on components, state, filtering logic, and clean UI structure._
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://img.shields.io/badge/project-React_Practice-blue" />
+<img src="https://img.shields.io/badge/tech-React_Components-61dafb" />
+<img src="https://img.shields.io/badge/tech-State_Management-green" />
+<img src="https://img.shields.io/badge/builder-Vite-orange" />
+<img src="https://img.shields.io/badge/ui-CSS_Modules-blueviolet" />
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔗 **Live Demo**
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+https://react-v3-practice-uk6k.vercel.app/
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+</div>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📌 Overview
+
+This small React project demonstrates essential concepts such as functional components, props, state, filtering logic, and reusable UI patterns.  
+The goal of the project was to practice clean component structure, basic interactivity, and data-driven rendering in React.
+
+Although simple, the project reflects good development habits: separation of components, readable code, and a focus on minimal but clear UI.
+
+---
+
+## 🖼️ Preview
+
+<img src="src/react3.png" width="850" />
+
+---
+
+## ✨ Key Features
+
+- Product list rendered from data  
+- Interactive filtering  
+- Reusable components  
+- Controlled inputs  
+- Functional components with hooks  
+- Clean and simple UI styling  
+- Responsive layout  
+
+---
+
+## 🛠 Tech Stack
+
+- **React (functional components & hooks)**  
+- **JavaScript / JSX**  
+- **CSS modules**  
+- **Vite**  
+- **Git & GitHub Pages / Vercel**  
+
+---
+
+<div align="center">
+🧡 _Improving React skills — one project at a time._
+</div>
